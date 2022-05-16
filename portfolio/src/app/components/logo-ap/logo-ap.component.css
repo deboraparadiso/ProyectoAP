@@ -1,0 +1,39 @@
+.container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes{
+    margin-right: 1em;
+}
+.btn{
+    border-width: medium;
+}
+
+img{
+    width: 100px;
+    margin-right:5px;
+}
+#face{
+    width: 40px;
+}
+
+#insta{
+    width: 50px;
+}
+
+#git{
+    width: 50px;
+}
+/* Para celulares */
+@media (max-width:575px){
+.container{
+    flex-direction: column;
+}
+.redes{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+}
